@@ -1,7 +1,7 @@
 process docker_process {
     container 'docker.io/twincacca/monrna:latest'
     tag "monrna"
-    cpus 128
+    cpus 64
 
     output:
     stdout
